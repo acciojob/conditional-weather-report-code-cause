@@ -5,7 +5,7 @@ const DisplayWeather = ({weather})=>{
 const {temperature, conditions} = weather;
 
     const tempStyles ={
-        color: temperature>20 ? 'blue' : 'red'
+        color: temperature>20 ? 'red' : 'blue'
     };
     return(
         <div>
